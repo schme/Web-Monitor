@@ -14,4 +14,3 @@ When making your own configuration file consult keys.py for available functions 
 corresponding string keys.
 
 A logfile can be specified in config.json with a "logfile" key-value pair. If no logfile is specified and file logging is on, a dated custom file is used.
-If however a logfile is specified and print logging is on, we will crash.
