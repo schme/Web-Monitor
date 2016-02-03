@@ -1,0 +1,31 @@
+{
+    "tester" : "get",
+    "logger" : "file_log",
+
+    "url_list" : {
+
+        "http://google.fi" : {
+            "string_search" : [
+                "<!doctype html>"
+            ],
+            "string_search_case" : [
+                "content=\"/images/branding/googleg/1x/googleg_standard_color_128dp.png\""
+            ]
+        },
+
+
+        "https://github.com/schme" : {
+            "string_search" : [
+                "Kasper Sauramo"
+            ]
+        },
+
+
+        "http://httpbin.org/status/404" : {
+            "string_search" : [
+                "This will make it fail"
+            ]
+        }
+
+    }
+}
