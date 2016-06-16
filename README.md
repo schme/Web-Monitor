@@ -1,5 +1,7 @@
 # A website monitoring tool
 
+Periodically connects to listed websites and compares the fetched page to given test cases (eg. matching strings), reporting the result to a file or stdout. Designed with ease of extension and modularity in mind.
+
 ## Installation
 
 Python2.7
